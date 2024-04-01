@@ -1,0 +1,46 @@
+/* CSS styles for the body */
+body {
+  font-family: Arial, sans-serif; /* Set font family */
+  background-image: url('background.jpg'); /* Set background image */
+  background-size: cover; /* Ensure background image covers entire screen */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Set height to 100% of viewport height */
+}
+
+/* CSS styles for the main container */
+.container {
+  text-align: center; /* Center text */
+  background-color: rgba(255, 255, 255, 0.8); /* Set background color with transparency */
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* CSS styles for the weather container */
+#weather-container {
+  padding: 20px; /* Add padding */
+}
+
+/* CSS styles for the city input field */
+#city-input {
+  padding: 8px; /* Add padding */
+  margin-right: 10px; /* Add margin to the right */
+}
+
+/* CSS styles for buttons */
+button {
+  padding: 8px; /* Add padding */
+  cursor: pointer; /* Set cursor to pointer */
+  background-color: #3498db; /* Set background color */
+  color: #fff; /* Set text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+}
+
+/* CSS styles for weather information */
+#weather-info {
+  margin-top: 20px; /* Add margin at the top */
+}
