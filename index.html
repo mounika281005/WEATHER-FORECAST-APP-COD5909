@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8" />
+    <!-- Responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compatibility with IE -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Title of the webpage -->
+    <title>Weather app</title>
+    <!-- External font awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="Style.css" />
+    <!-- Preconnect to font server -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- External font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- Main container -->
+    <div class="container">
+        <!-- Title of the Weather App -->
+        <h1>Weather App</h1>
+        <!-- Weather input container -->
+        <div id="weather-container">
+            <!-- Input field for city -->
+            <input type="text" id="city-input" placeholder="Enter city">
+            <!-- Button to trigger weather retrieval -->
+            <button onclick="getWeather()">Get Weather</button>
+            <!-- Container for weather information -->
+            <div id="weather-info"> </div>
+        </div>
+        <!-- Main section -->
+        <main>
+            <!-- Section for location information -->
+            <section class="location">
+                <!-- Container for city name -->
+                <div class="city"></div>
+                <!-- Container for date -->
+                <div class="date" id="date"></div>
+            </section>
+            <!-- Container for current weather information -->
+            <div class="current">
+                <!-- Container for temperature -->
+                <div class="temp"><span></span></div>
+                <!-- Container for weather description -->
+                <div class="weather"></div>
+            </div>
+        </main>
+    </div>
+    <!-- JavaScript file -->
+    <script src="Script.js"></script>
+</body>
+</html>
