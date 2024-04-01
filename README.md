@@ -58,3 +58,14 @@ Seeking further engagement? Consider exploring additional projects, such as a we
 ### Conclusion
 
 In conclusion, this documentation offers a comprehensive overview of the Weather Forecast App, elucidating its code structure, functionality, and execution procedure. By following the instructions provided, users can gain valuable insights into developing web applications and embark on exciting new challenges in the realm of web development.
+
+### OUTPUT:
+
+![Screenshot (4)](https://github.com/mounika281005/WEATHER-FORECAST-APP-COD5909/assets/143736675/0d172a17-4d74-496c-a9ee-669e495e4c29)
+
+![Screenshot (5)](https://github.com/mounika281005/WEATHER-FORECAST-APP-COD5909/assets/143736675/0cd39acd-a910-4d7f-94ca-7077e227b92a)
+
+![Screenshot (6)](https://github.com/mounika281005/WEATHER-FORECAST-APP-COD5909/assets/143736675/f5afafd4-f084-40b1-bd5f-b74685f0a9ae)
+
+![Screenshot (7)](https://github.com/mounika281005/WEATHER-FORECAST-APP-COD5909/assets/143736675/34bd53d3-5394-48de-8738-db4f4cc82e67)
+
